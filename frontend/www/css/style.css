@@ -1,0 +1,18 @@
+/* Empty. Add your own CSS if you like */
+.pull-right{
+  float:right;
+}
+
+.avatar{
+   border-radius: 50%;
+   width: 72px;
+}
+
+.allow-wrap{
+  white-space: normal !important;
+}
+
+
+.full-width{
+  width: 99%;
+}

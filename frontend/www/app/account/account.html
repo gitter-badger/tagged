@@ -1,0 +1,44 @@
+<ion-view view-title="Your Account">
+  <ion-content has-bouncing="false">
+    <div ng-show="account.profile">
+
+        <div class="row">
+        <div class="col col-75">
+          <h4 class='pull-right' ng-bind="account.profile.name"></h4>
+        </div>
+        <div class="col">
+
+          <img class="avatar" ng-src="{{account.profile.picture}}">
+
+        </div>
+        </div>
+
+
+
+
+    <div class="item item-body">
+    <p>
+      This is your <em>tagged</em> profile. Other users off <em>tagged</em> can browse your profile so please provide some information about you...
+    </p>
+    <p>
+      <a href="#" class="subdued">10 Offerings</a>
+      <a href="#" class="subdued">14 Searches</a>
+    </p>
+    <button class="button button-small button-block button-assertive" ng-click="account.logout()">Logout</button>
+  </div>
+  <div class="item tabs tabs-secondary tabs-icon-left">
+
+    <a class="tab-item" href="#">
+      <i class="icon ion-edit"></i> Edit your profile
+    </a>
+  </div>
+    </div>
+    <div ng-hide="account.profile" class="padding">
+
+    <h4>Hey there!</h4>
+    <p>We've build <em>tagged</em> to empower people helping each other. If you'd like to participate and help other humans, please login by clicking the button bellow</p>
+
+    <button class="button button-small button-block button-balanced" ng-click="account.login()">Login</button>
+    </div>
+  </ion-content>
+</ion-view>
