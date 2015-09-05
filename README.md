@@ -1,5 +1,7 @@
 # Tagged
 
+[![Join the chat at https://gitter.im/domma/tagged](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/domma/tagged?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Tagged is supposed to help with managing offers and requests in the context of helping refugees.  The basic idea are
 just tagged texts, wich are easy to enter and easy to search for. Tags can be choosen at hoc, similar to Twitter hash
 tags. The system does not enforce and structure and idealy it will be self organizing, without too much intervention from
